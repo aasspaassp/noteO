@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-import front from "../../../part2/fullstackpt2/build"
+
 
 if(process.argv.length < 3){
   console.log('Please provide the password as an argument: node mongo.js <password>')
