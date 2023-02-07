@@ -8,8 +8,10 @@ const app = express()
 const cors = require('cors')
 //Middleware?
 app.use(cors())
-app.use(express.static('build'))
+app.use(express.static('build')) //el servidor enviará este archivo en el mismo address que la api
 app.use(express.json())
+
+
 
 let notes = [
   {
